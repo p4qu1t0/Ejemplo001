@@ -24,8 +24,8 @@ import java.io.Serializable;
 public class Event implements Serializable {
 
     private static final long serialVersionUID = -8243145429438016232L;
-    public static final String CITY_INDEX = "City-Index";
-    public static final String AWAY_TEAM_INDEX = "AwayTeam-Index";
+    public static final String CITY_INDEX = "city-Index";
+    public static final String AWAY_TEAM_INDEX = "awayTeam-Index";
 
     @DynamoDBAttribute
     private Long eventId;
